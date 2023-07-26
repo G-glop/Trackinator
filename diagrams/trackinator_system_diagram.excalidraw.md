@@ -57,9 +57,9 @@ any mA @ 3.5 V ^hVRw2FKO
 
 [[https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf|hw design]] ^MLY6WYG3
 
-[[https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeeduino-XIAO-ESP32C3-SCH.pdf|xiao schematics]] ^dw3TyTC5
+[[https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_SCH_v1.1.pdf|xiao sense schematics]] ^dw3TyTC5
 
-[[https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-AI-Thinker-schematic-diagram.png?quality=100&strip=all&ssl=1|esp cam schematics]] ^QLMu9XLC
+[[obsidian://open?vault=Trackinator&file=pdfs%2FESP32_CAM_V1.6.pdf|esp cam schematic]] ^QLMu9XLC
 
 series CLK_OUT
 (backup) ^mW57GQgu
@@ -103,6 +103,8 @@ Make a few recordings to try out how much of an impact the dead cats make on aud
 
 Or USB A for frunkability
 (somehow do both?) ^FI3PvyOE
+
+[[https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_ExpBoard_v1.0_SCH.pdf|expansion board schematic]] ^OO7LF31v
 
 %%
 # Drawing
@@ -4673,8 +4675,8 @@ Or USB A for frunkability
 		},
 		{
 			"type": "text",
-			"version": 100,
-			"versionNonce": 1152938095,
+			"version": 139,
+			"versionNonce": 145807937,
 			"isDeleted": false,
 			"id": "dw3TyTC5",
 			"fillStyle": "cross-hatch",
@@ -4687,31 +4689,31 @@ Or USB A for frunkability
 			"y": -347.16518443663693,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 107.49154663085938,
+			"width": 138.2376708984375,
 			"height": 12.215597429806746,
 			"seed": 102604,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1689933404898,
-			"link": "https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeeduino-XIAO-ESP32C3-SCH.pdf",
+			"updated": 1689934747965,
+			"link": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_SCH_v1.1.pdf",
 			"locked": false,
 			"fontSize": 9.772477943845397,
 			"fontFamily": 1,
-			"text": "🌐[[xiao schematics]]",
-			"rawText": "[[https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/Seeeduino-XIAO-ESP32C3-SCH.pdf|xiao schematics]]",
+			"text": "🌐[[xiao sense schematics]]",
+			"rawText": "[[https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_SCH_v1.1.pdf|xiao sense schematics]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "🌐[[xiao schematics]]",
+			"originalText": "🌐[[xiao sense schematics]]",
 			"lineHeight": 1.25,
 			"baseline": 8
 		},
 		{
 			"type": "text",
-			"version": 122,
-			"versionNonce": 1216024879,
+			"version": 237,
+			"versionNonce": 631358127,
 			"isDeleted": false,
 			"id": "QLMu9XLC",
 			"fillStyle": "cross-hatch",
@@ -4724,24 +4726,24 @@ Or USB A for frunkability
 			"y": -331.53229544389325,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 125.888427734375,
+			"width": 120.58332824707031,
 			"height": 12.215597429806746,
 			"seed": 100210164,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1689933412670,
-			"link": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-AI-Thinker-schematic-diagram.png?quality=100&strip=all&ssl=1",
+			"updated": 1689935142368,
+			"link": "obsidian://open?vault=Trackinator&file=pdfs%2FESP32_CAM_V1.6.pdf",
 			"locked": false,
 			"fontSize": 9.772477943845397,
 			"fontFamily": 1,
-			"text": "🌐[[esp cam schematics]]",
-			"rawText": "[[https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-AI-Thinker-schematic-diagram.png?quality=100&strip=all&ssl=1|esp cam schematics]]",
+			"text": "🌐[[esp cam schematic]]",
+			"rawText": "[[obsidian://open?vault=Trackinator&file=pdfs%2FESP32_CAM_V1.6.pdf|esp cam schematic]]",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "🌐[[esp cam schematics]]",
+			"originalText": "🌐[[esp cam schematic]]",
 			"lineHeight": 1.25,
 			"baseline": 8
 		},
@@ -6782,8 +6784,8 @@ Or USB A for frunkability
 		},
 		{
 			"type": "text",
-			"version": 188,
-			"versionNonce": 614121743,
+			"version": 230,
+			"versionNonce": 258800981,
 			"isDeleted": false,
 			"id": "4PVAnT7v",
 			"fillStyle": "cross-hatch",
@@ -6792,8 +6794,8 @@ Or USB A for frunkability
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 27.839783789659805,
-			"y": 279.236183636698,
+			"x": 28.639832617784805,
+			"y": 281.63614701560425,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 1096.17529296875,
@@ -6803,7 +6805,7 @@ Or USB A for frunkability
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1689933337939,
+			"updated": 1690399154246,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -6890,6 +6892,43 @@ Or USB A for frunkability
 			"originalText": "Or USB A for frunkability\n(somehow do both?)",
 			"lineHeight": 1.25,
 			"baseline": 34
+		},
+		{
+			"type": "text",
+			"version": 124,
+			"versionNonce": 1378927265,
+			"isDeleted": false,
+			"id": "OO7LF31v",
+			"fillStyle": "cross-hatch",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 195.42362796476596,
+			"y": -348.1957421416904,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 178.08416748046875,
+			"height": 13.748963066459188,
+			"seed": 1647090543,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1689934742621,
+			"link": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_ExpBoard_v1.0_SCH.pdf",
+			"locked": false,
+			"fontSize": 10.99917045316735,
+			"fontFamily": 1,
+			"text": "🌐[[expansion board schematic]]",
+			"rawText": "[[https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_ExpBoard_v1.0_SCH.pdf|expansion board schematic]]",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "🌐[[expansion board schematic]]",
+			"lineHeight": 1.25,
+			"baseline": 10
 		}
 	],
 	"appState": {
@@ -6907,10 +6946,10 @@ Or USB A for frunkability
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1323.5955674283318,
-		"scrollY": 1017.724143670641,
+		"scrollX": 335.23476726964986,
+		"scrollY": 478.6430043710018,
 		"zoom": {
-			"value": 0.6000000000000001
+			"value": 1.0000000000000004
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
