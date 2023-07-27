@@ -6673,8 +6673,8 @@ Or USB A for frunkability
 		},
 		{
 			"type": "text",
-			"version": 127,
-			"versionNonce": 777516225,
+			"version": 129,
+			"versionNonce": 1986317909,
 			"isDeleted": false,
 			"id": "RmcGFCNC",
 			"fillStyle": "cross-hatch",
@@ -6694,7 +6694,7 @@ Or USB A for frunkability
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1689933423564,
+			"updated": 1690480964724,
 			"link": "https://datasheet.lcsc.com/lcsc/1808311640_AWINIC-Shanghai-Awinic-Tech-AW9106BTQR_C252448.pdf",
 			"locked": false,
 			"fontSize": 16,
@@ -6946,10 +6946,10 @@ Or USB A for frunkability
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 335.23476726964986,
-		"scrollY": 478.6430043710018,
+		"scrollX": -369.32267251252426,
+		"scrollY": 522.5835286998331,
 		"zoom": {
-			"value": 1.0000000000000004
+			"value": 1.2188714462194405
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,

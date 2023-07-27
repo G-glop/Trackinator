@@ -390,7 +390,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -426,6 +426,23 @@
         "via_diameter": 0.51,
         "via_drill": 0.25,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.51,
+        "via_drill": 0.25,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -442,7 +459,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "trackinator.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -488,10 +505,6 @@
     [
       "1043d1c3-a5d6-4085-94bb-7aa4ab26fb9a",
       "ESP32_1"
-    ],
-    [
-      "518adb60-3042-4001-a908-a2932ff25910",
-      "ESP32_2"
     ]
   ],
   "text_variables": {}
