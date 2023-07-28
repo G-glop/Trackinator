@@ -423,7 +423,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.51,
+        "via_diameter": 0.4532,
         "via_drill": 0.25,
         "wire_width": 6
       },
@@ -505,6 +505,38 @@
     [
       "1043d1c3-a5d6-4085-94bb-7aa4ab26fb9a",
       "ESP32_1"
+    ],
+    [
+      "e63bfbc8-53d7-4fc8-9d4c-c9a46bf54919",
+      "Power"
+    ],
+    [
+      "25cf95d9-9d89-4f5e-a930-fa6303961f16",
+      "Config_LED1"
+    ],
+    [
+      "de58f650-4327-4ff1-846d-9c7fb28ab0b0",
+      "Config_LED2"
+    ],
+    [
+      "db4158ec-f993-4a5f-979d-6baa63efc982",
+      "Config_LED3"
+    ],
+    [
+      "26d502a2-42b1-422d-b7e6-b4c8c4845ea6",
+      "Config_LED4"
+    ],
+    [
+      "1b20af79-b8ff-4c0b-9acc-4713f8896635",
+      "Config_LED5"
+    ],
+    [
+      "4a75c5e1-4e90-46f4-8473-c7a747e46645",
+      "Config_LED6"
+    ],
+    [
+      "0244558d-4b88-42fe-a7a7-86b650c7c18e",
+      "Config_LED7"
     ]
   ],
   "text_variables": {}

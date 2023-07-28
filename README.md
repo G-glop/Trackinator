@@ -5,21 +5,22 @@
 - [X] Add a README.md
 - [ ] Search the calendar for any Trackinator info and add it here
 	- [ ] select the flex connector & crystals & oscillators (to free up browser tabs)
-	- [ ] transfer my eyetrack diagram to kicad (don't worry about simple component values/choices)
-	- [ ] abandon fully flex design and opt into frunkable + flex illuminators / extensions
+	- [x] transfer my eyetrack diagram to kicad (don't worry about simple component values/choices)
+	- [x] abandon fully flex design and opt into frunkable + flex illuminators / extensions
 	- [ ] drive all ir leds from a single current limited source to ensure sum i <= safe limit
 - [x] Import new FFC connector
 - FCC connector orientaion:
 	- Face cams prefer pins up
 	- Eye cams prefer pins down
 	- Nose cam doesn't care
+- [ ] Place the hub indicator LEDs close to their respective ESP/downstream port
 - [x] Add camera pinout to it
 	- Did the option with least fewest crossing lines, could've copied the xiao but eh
 - [x] Connect it to the ESP32
 - [ ] Select a suitable crystal + caps and add it
 - [ ] Add option to use central oscillator / clock source
 - [ ] Select and add USB C and A female connectors
-  - [ ] What does USB C need in addition to P+N+5V+GND?
+  - [ ] What does a USB C host port need in addition to P+N+5V+GND?
 - [ ] Use painters tape + scanner + 3d printer to prototype a flex PCB
   - [ ] IR illumination
   - [ ] Ambilight
@@ -30,7 +31,7 @@
 	- Flex PCB hatching instead of solid pours provide better flexibility but shouldn't be used with high frequency. Use denser hatching if possible
 	- [ ] ESPs connected to a shared bus (I2C?) for sidechannel communication
 	- [ ] Strapping pins so each ESP can tell where it is
-	- [ ] Shared RESET and GPIO0 signals connected to buttons
+	- [x] Shared RESET and GPIO0 signals connected to buttons
 	- [ ] Series JTAG for the hell of it
 	- [ ] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
 	- [ ] Make a few recordings to try out how much of an impact the dead cats make on audio - they're right in the space for mouth tracking cameras
@@ -40,9 +41,20 @@
 	- [ ] Needs usb + power + space for all the ground pins
 - [ ] (meme) composite all 5 camera feeds together into a cursed webcam - "vision pro without ai"
 - [ ] Align the USB A male 3d model with footprint
+	- [ ] Same for the buck module
 - [ ] Use the "Round Tracks" plugin from mixtela together with via/pad teardrops
+	- It's an actual benefit on flex PCBs
+- Add logos:
+	- [ ] EyeTrackVR
+	- [ ] OpenSourceHW
+	- [ ] G_glop
 - [ ] Add an automatically updating "Exported at \[date] \[tag] \[branch] \[commit #]" text
 	- Date is easy using the ${CURRENT_DATE} variable
+- LCSC Order:
+	- [x] USB connector
+	- [ ] IR Leds
+	- [ ] Different crystal load caps
+	- [ ] Trim pot to tune WS2812B supply voltage
 - [ ] Export a 3D model of the board and make it into a VRChat world with the top & bottom (copper + mask + silkscreen) are the ceiling & floor, and vias are columns between the two (scale correct?)
 	- The VRML export is fine (imports into Blender) but everything is geometry, use it only for vias and export everything else as SVG (later rasterzied)?
 	- There're no gradients and sharp edges are greatly reduced by using teardrops, mSDF(s) could be a better choice than an RGB texture.

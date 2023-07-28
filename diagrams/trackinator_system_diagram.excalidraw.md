@@ -4638,8 +4638,8 @@ Or USB A for frunkability
 		},
 		{
 			"type": "text",
-			"version": 131,
-			"versionNonce": 1174013857,
+			"version": 132,
+			"versionNonce": 716879003,
 			"isDeleted": false,
 			"id": "MLY6WYG3",
 			"fillStyle": "cross-hatch",
@@ -4659,8 +4659,8 @@ Or USB A for frunkability
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1689933386719,
-			"link": "https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf",
+			"updated": 1690558707210,
+			"link": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_hardware_design_guidelines_en.pdf",
 			"locked": false,
 			"fontSize": 9.772477943845397,
 			"fontFamily": 1,
@@ -6946,10 +6946,10 @@ Or USB A for frunkability
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -369.32267251252426,
-		"scrollY": 522.5835286998331,
+		"scrollX": 175.4195144650032,
+		"scrollY": 435.3253375312697,
 		"zoom": {
-			"value": 1.2188714462194405
+			"value": 2.866299174286492
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
