@@ -4,7 +4,7 @@
 - [X] Put Obsidian notes inside the repo
 - [X] Add a README.md
 - [ ] Search the calendar for any Trackinator info and add it here
-	- [ ] select the flex connector & crystals & oscillators (to free up browser tabs)
+	- [x] select the flex connector & crystals & oscillators (to free up browser tabs)
 	- [x] transfer my eyetrack diagram to kicad (don't worry about simple component values/choices)
 	- [x] abandon fully flex design and opt into frunkable + flex illuminators / extensions
 	- [ ] drive all ir leds from a single current limited source to ensure sum i <= safe limit
@@ -14,31 +14,39 @@
 	- Eye cams prefer pins down
 	- Nose cam doesn't care
 - [ ] Place the hub indicator LEDs close to their respective ESP/downstream port
+- [ ] Remove `fp-info-cache` from the repo and ignore it
 - [x] Add camera pinout to it
 	- Did the option with least fewest crossing lines, could've copied the xiao but eh
 - [x] Connect it to the ESP32
-- [ ] Select a suitable crystal + caps and add it
+- [x] Select a suitable crystal + caps and add it
 - [ ] Add option to use central oscillator / clock source
 - [ ] Select and add USB C and A female connectors
   - [ ] What does a USB C host port need in addition to P+N+5V+GND?
-- [ ] Use painters tape + scanner + 3d printer to prototype a flex PCB
+- [ ] 3D print the outline + USB A + FFC connectors to check the fit
+- [ ] Switch KiCad to JLCPCB 4+ layer capabilites (I'm gonna need them)
+- [ ] Use painters tape + scanner + 3d printer to prototype a flex PCB (or 3D scan / manally model the index)
   - [ ] IR illumination
   - [ ] Ambilight
   - [ ] Reuse the 24P FFC connector
+	  - Either look at the [camera mechanical drawings](https://www.aliexpress.com/item/1005003906449317.html?spm=a2g0o.order_list.order_list_main.10.361c1802tWpc3p) or at the [FFC connector datasheet](https://datasheet.lcsc.com/lcsc/2001071406_XFCN-F0503-ZV-24-20T-R_C481246.pdf)
 - [ ] Add headers as an alternative to the flex PCB + FFC connector
-- [ ] Add a few ERM drivers
+- [x] Add a few ERM drivers
 - [x] Move tasks from the system diagram here
 	- Flex PCB hatching instead of solid pours provide better flexibility but shouldn't be used with high frequency. Use denser hatching if possible
 	- [ ] ESPs connected to a shared bus (I2C?) for sidechannel communication
-	- [ ] Strapping pins so each ESP can tell where it is
+	- [ ] Strapping pins so each ESP can tell where it is (or voltage divider on an ADC pin)
 	- [x] Shared RESET and GPIO0 signals connected to buttons
 	- [ ] Series JTAG for the hell of it
 	- [ ] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
+		- Require 5V fans
+		- [ ] Add 5V switching in addition to PWM to be safe
 	- [ ] Make a few recordings to try out how much of an impact the dead cats make on audio - they're right in the space for mouth tracking cameras
 - [ ] Add good quality voltage sources (switch mode where applicable)
-	- Could steal the 3.3 V Buck and the camera LDOs from the Xiao Sense 
+	- [x] Bucks for 3v3 and WS2812B
+	- [ ] LDOs for 1v2 and 2v8 camera supplies (low noise)
 - [ ] Add a footprint for the google coral AI chip? (G313-06329-00)
-	- [ ] Needs usb + power + space for all the ground pins
+	- Needs usb + power + space for all the ground pins
+	- Or use the M.2 PCIe version(s) and stuff it into the PC
 - [ ] (meme) composite all 5 camera feeds together into a cursed webcam - "vision pro without ai"
 - [ ] Align the USB A male 3d model with footprint
 	- [ ] Same for the buck module

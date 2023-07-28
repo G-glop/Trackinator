@@ -671,6 +671,17 @@
     (uuid fbec5f18-694f-47c8-9b1e-db95674465ad)
   )
 
+  (text "https://lowpowerlab.com/forum/general-topics/ws2812b-rgb-led-measurements/"
+    (at 104.14 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://lowpowerlab.com/forum/general-topics/ws2812b-rgb-led-measurements/"))
+    (uuid cb69efe0-ec24-4a4b-8aff-a8ee41ef217b)
+  )
+  (text "Make the voltage tunable between 3.6 and 2.4 V (manually)"
+    (at 104.14 106.045 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid db54c5bc-496d-4558-971f-5715a56c27eb)
+  )
+
   (global_label "VDD_WS2812B" (shape input) (at 97.79 86.36 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1493f003-3088-4417-a655-5d15671fdc2a)
