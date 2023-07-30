@@ -458,7 +458,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "trackinator.step",
       "vrml": "trackinator.wrl"
     },
     "page_layout_descr_file": ""
@@ -511,6 +511,10 @@
       "Power"
     ],
     [
+      "4d65a2f6-005f-4090-9eb0-ed52c7fefc49",
+      "ESP32_2"
+    ],
+    [
       "25cf95d9-9d89-4f5e-a930-fa6303961f16",
       "Config_LED1"
     ],
@@ -537,6 +541,18 @@
     [
       "0244558d-4b88-42fe-a7a7-86b650c7c18e",
       "Config_LED7"
+    ],
+    [
+      "c597934f-1d26-4812-bf74-afdd405e0146",
+      "ESP32_3"
+    ],
+    [
+      "9221bdf3-2c55-47fa-94e5-f23b5c53e3cf",
+      "ESP32_4"
+    ],
+    [
+      "d8e1a658-6403-43bb-be1c-795dd218b7ab",
+      "ESP32_5"
     ]
   ],
   "text_variables": {}

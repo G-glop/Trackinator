@@ -3,26 +3,25 @@
 
 - [X] Put Obsidian notes inside the repo
 - [X] Add a README.md
-- [ ] Search the calendar for any Trackinator info and add it here
+- [x] Search the calendar for any Trackinator info and add it here
 	- [x] select the flex connector & crystals & oscillators (to free up browser tabs)
 	- [x] transfer my eyetrack diagram to kicad (don't worry about simple component values/choices)
 	- [x] abandon fully flex design and opt into frunkable + flex illuminators / extensions
 	- [ ] drive all ir leds from a single current limited source to ensure sum i <= safe limit
+- [ ] M.2 like half screw-hole for mounting in a custom frunk housing
 - [x] Import new FFC connector
 - FCC connector orientaion:
 	- Face cams prefer pins up
-	- Eye cams prefer pins down
-	- Nose cam doesn't care
+	- Eye and nose cams prefer pins down
 - [ ] Place the hub indicator LEDs close to their respective ESP/downstream port
-- [ ] Remove `fp-info-cache` from the repo and ignore it
+- [ ] ESP UART output headers
+- [x] Remove `fp-info-cache` from the repo and ignore it
 - [x] Add camera pinout to it
 	- Did the option with least fewest crossing lines, could've copied the xiao but eh
-- [x] Connect it to the ESP32
-- [x] Select a suitable crystal + caps and add it
-- [ ] Add option to use central oscillator / clock source
-- [ ] Select and add USB C and A female connectors
+- [ ] Symmetrize all the connectors and lock them
+- [x] Select and add USB C and A female connectors
   - [ ] What does a USB C host port need in addition to P+N+5V+GND?
-- [ ] 3D print the outline + USB A + FFC connectors to check the fit
+- [x] 3D print the outline + USB A + FFC connectors to check the fit
 - [ ] Switch KiCad to JLCPCB 4+ layer capabilites (I'm gonna need them)
 - [ ] Use painters tape + scanner + 3d printer to prototype a flex PCB (or 3D scan / manally model the index)
   - [ ] IR illumination
@@ -31,13 +30,14 @@
 	  - Either look at the [camera mechanical drawings](https://www.aliexpress.com/item/1005003906449317.html?spm=a2g0o.order_list.order_list_main.10.361c1802tWpc3p) or at the [FFC connector datasheet](https://datasheet.lcsc.com/lcsc/2001071406_XFCN-F0503-ZV-24-20T-R_C481246.pdf)
 - [ ] Add headers as an alternative to the flex PCB + FFC connector
 - [x] Add a few ERM drivers
+	- [ ] If i run out of space, replace some of the RS485 drivers with N mosefts
 - [x] Move tasks from the system diagram here
 	- Flex PCB hatching instead of solid pours provide better flexibility but shouldn't be used with high frequency. Use denser hatching if possible
 	- [ ] ESPs connected to a shared bus (I2C?) for sidechannel communication
 	- [ ] Strapping pins so each ESP can tell where it is (or voltage divider on an ADC pin)
 	- [x] Shared RESET and GPIO0 signals connected to buttons
 	- [ ] Series JTAG for the hell of it
-	- [ ] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
+	- [x] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
 		- Require 5V fans
 		- [ ] Add 5V switching in addition to PWM to be safe
 	- [ ] Make a few recordings to try out how much of an impact the dead cats make on audio - they're right in the space for mouth tracking cameras
@@ -48,8 +48,8 @@
 	- Needs usb + power + space for all the ground pins
 	- Or use the M.2 PCIe version(s) and stuff it into the PC
 - [ ] (meme) composite all 5 camera feeds together into a cursed webcam - "vision pro without ai"
-- [ ] Align the USB A male 3d model with footprint
-	- [ ] Same for the buck module
+- [x] Align the USB A male 3d model with footprint
+	- [x] Same for the buck module
 - [ ] Use the "Round Tracks" plugin from mixtela together with via/pad teardrops
 	- It's an actual benefit on flex PCBs
 - Add logos:
@@ -60,8 +60,8 @@
 	- Date is easy using the ${CURRENT_DATE} variable
 - LCSC Order:
 	- [x] USB connector
+	- [x] Fan headers
 	- [ ] IR Leds
-	- [ ] Different crystal load caps
 	- [ ] Trim pot to tune WS2812B supply voltage
 - [ ] Export a 3D model of the board and make it into a VRChat world with the top & bottom (copper + mask + silkscreen) are the ceiling & floor, and vias are columns between the two (scale correct?)
 	- The VRML export is fine (imports into Blender) but everything is geometry, use it only for vias and export everything else as SVG (later rasterzied)?
