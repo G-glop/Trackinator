@@ -38,8 +38,8 @@
 	- [x] Shared RESET and GPIO0 signals connected to buttons
 	- [ ] Series JTAG for the hell of it
 	- [x] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
-		- Require 5V fans
-		- [ ] Add 5V switching in addition to PWM to be safe
+		- [ ] Add 5V/ground switching in addition to PWM to be safe
+		- [ ] (maybe) add some option of a 12V boost converter
 	- [ ] Make a few recordings to try out how much of an impact the dead cats make on audio - they're right in the space for mouth tracking cameras
 - [ ] Add good quality voltage sources (switch mode where applicable)
 	- [x] Bucks for 3v3 and WS2812B
@@ -52,6 +52,7 @@
 	- [x] Same for the buck module
 - [ ] Use the "Round Tracks" plugin from mixtela together with via/pad teardrops
 	- It's an actual benefit on flex PCBs
+- [ ] The flex PCBs of the cameras seem to have some intentional engineering compared to "bunch of parallel tracks" like a FFC cable.
 - Add logos:
 	- [ ] EyeTrackVR
 	- [ ] OpenSourceHW
