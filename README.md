@@ -47,6 +47,7 @@
 - [ ] Add a footprint for the google coral AI chip? (G313-06329-00)
 	- Needs usb + power + space for all the ground pins
 	- Or use the M.2 PCIe version(s) and stuff it into the PC
+- [ ] Add thermal vias under the ESPs
 - [ ] (meme) composite all 5 camera feeds together into a cursed webcam - "vision pro without ai"
 - [x] Align the USB A male 3d model with footprint
 	- [x] Same for the buck module
