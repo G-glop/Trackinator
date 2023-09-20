@@ -37,6 +37,7 @@
 	- [ ] Strapping pins so each ESP can tell where it is (or voltage divider on an ADC pin)
 	- [x] Shared RESET and GPIO0 signals connected to buttons
 	- [ ] Series JTAG for the hell of it
+		- The ESP has built in USB JTAG already and the xiaos don't have it either, so leave it out for more pins?
 	- [x] PWM + Tacho PC fan header (commodity PC fans run at 12 V and usually require at least 7 V to start - do i need a boost converter?)
 		- [ ] Add 5V/ground switching in addition to PWM to be safe
 		- [ ] (maybe) add some option of a 12V boost converter
